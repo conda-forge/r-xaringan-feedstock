@@ -1,4 +1,4 @@
-{% set version = "0.24" %}
+{% set version = "0.25" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/xaringan_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/xaringan/xaringan_{{ version }}.tar.gz
-  sha256: b9ab6f8a9895b0c5c1b03abec2f2c306af2ac289def2b40b499191eeaedfa4ba
+  sha256: b57f723c80aaba7d5ec079f1ae5dbf0c081395eef7ab6ffc870bdc4cddf2dfad
 
 build:
   merge_build_host: true  # [win]
