@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -26,17 +26,17 @@ requirements:
   host:
     - r-base
     - r-htmltools
-    - r-knitr >=1.21
-    - r-rmarkdown
+    - r-knitr >=1.30
+    - r-rmarkdown >=2.8
     - r-servr >=0.13
-    - r-xfun >=0.6
+    - r-xfun >=0.18
   run:
     - r-base
     - r-htmltools
-    - r-knitr >=1.21
-    - r-rmarkdown
+    - r-knitr >=1.30
+    - r-rmarkdown >=2.8
     - r-servr >=0.13
-    - r-xfun >=0.6
+    - r-xfun >=0.18
 
 test:
   commands:
