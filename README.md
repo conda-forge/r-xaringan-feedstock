@@ -1,11 +1,11 @@
-About r-xaringan
-================
+About r-xaringan-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-xaringan-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/yihui/xaringan
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-xaringan-feedstock/blob/main/LICENSE.txt)
 
 Summary: Create HTML5 slides with R Markdown and the JavaScript library 'remark.js' (<https://remarkjs.com>).
 
